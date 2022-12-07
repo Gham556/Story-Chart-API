@@ -4,7 +4,8 @@
   "description": "Project Goals- An API that serves as an opensource database storing story arc/plots for use in research and application development",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "apollo-server": "^3.11.1",
     "dotenv": "^16.0.3",
     "graphql": "^16.6.0",
-    "mongoose": "^6.7.5"
+    "mongoose": "^6.7.5",
+    "nodemon": "^2.0.20"
   }
 }

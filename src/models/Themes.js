@@ -6,4 +6,4 @@ const ThemesSchema = new Schema({
     description: {type: String, trim: true, maxLength: 300}
 });
 
-module.exports = mongoose.Model("Themes", ThemesSchema);
+module.exports = mongoose.model("Themes", ThemesSchema);

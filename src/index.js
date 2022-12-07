@@ -1,9 +1,13 @@
-const { ApolloServer, gql } = require('apollo-server');
+const { ApolloServer } = require('apollo-server');
+require('dotenv').config();
+const DATABASE_URL = process.env.DATABASE_URL;
 
 const connectDB = require('./config/db');
 const typeDefs = require('./types');
 const resolvers = require('./resolvers');
 const models = require('./models');
+
+console.log(`${DATABASE_URL}`)
 
 connectDB();
 

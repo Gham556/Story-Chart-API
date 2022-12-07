@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const connectDB = () => {
     return mongoose.connect(DATABASE_URL, {useUnifiedTopology: true, useNewUrlParser: true}, err => {
         if (err){
-            console.error('Connection to DB failed');
+            console.error(`Connection to DB failed ${DATABASE_URL}}`);
         } else{
             console.log('Connection to DB was successful');
         }

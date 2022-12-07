@@ -7,4 +7,4 @@ const StructuresSchema = new Schema({
 });
 
 
-module.exports = mongoose.Model("Structures", StructuresSchema);
+module.exports = mongoose.model("Structures", StructuresSchema);

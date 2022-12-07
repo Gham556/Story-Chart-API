@@ -9,4 +9,4 @@ const StoryStructureSchema = new Schema({
 });
 
 
-module.exports = mongoose.Model("StoryStructures", StoryStructureSchema);
+module.exports = mongoose.model("StoryStructures", StoryStructureSchema);
