@@ -1,3 +1,3 @@
-module.exports = async (_, { name }, {models}) => {
-  return await models.StoryStructure.find(name);
+module.exports = async (_, __, {models}) => {
+  return await models.StoryStructures.find();
 };

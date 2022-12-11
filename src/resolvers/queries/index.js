@@ -1,5 +1,5 @@
-const Structure = require("../../models/Structures");
-const StoryStructure = require("../../models/StoryStructures");
-const Theme = require("../../models/Themes");
+const Structures = require("../../models/Structures");
+const stories = require("../../models/StoryStructures");
+const Themes = require("../../models/Themes");
 
-module.exports = { Structure, StoryStructure, Theme};
+module.exports = { Structures, stories, Themes};
